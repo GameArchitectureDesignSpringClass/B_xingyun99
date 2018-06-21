@@ -34,6 +34,12 @@ cc.Class({
     toScene: function () {
         cc.director.loadScene("Game")
     },
+    b2:function(){
+        cc.director.loadScene("Interface")
+    },
+    b3:function(){
+        cc.director.loadScene("Main")
+    },
 
     // LIFE-CYCLE CALLBACKS:
 
